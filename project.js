@@ -1,19 +1,19 @@
 let projectData = [
     {
-        image: 'img/project-1.png',
-        name: 'project one',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#javascript, #fullstack, #css'
+        image: 'img/cidade.jpg',
+        name: 'Buscador de Cep',
+        detail: 'Projeto feito com o uso de uma APi, no qual te retorna dados sobre o cep digitado',
+        github: 'https://github.com/niltoncesar3/buscadorCep',
+        live: 'https://niltoncesar3.github.io/buscadorCep/',
+        tags: '#buscador de cep'
     },
     {
-        image: 'img/project-2.png',
-        name: 'project two',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#javascript, #css'
+        image: 'img/email.jpg',
+        name: 'Login de usuário',
+        detail: 'Email : (Digite qualquer e-mail) <br> Senha precisa ser : 123456. <br> Se a senha for outra, um erro será exibido',
+        github: 'https://github.com/niltoncesar3/form-login',
+        live: 'https://niltoncesar3.github.io/form-login/',
+        tags: '#login email e senha'
     },
     {
         image: 'img/project-3.png',
@@ -21,7 +21,7 @@ let projectData = [
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
         github: '#',
         live: '#',
-        tags: '#javascript'
+        tags: '#javascript, #react'
     },
     {
         image: 'img/project-4.png',
@@ -82,8 +82,8 @@ const createProjectCards = (data) => {
               <div class="project-body">
                 <h1 class="project-name">${data.name}</h1>
                 <p class="project-detail">${data.detail}</p>
-                <a href="${data.github}" class="btn">GitHub</a>
-                <a href="${data.live}" class="btn">See live</a>
+                <a href="${data.github}" target='_blank' class="btn">GitHub</a>
+                <a href="${data.live}" target= '_blank' class="btn">Ver Site</a>
 
               </div>
             </div>

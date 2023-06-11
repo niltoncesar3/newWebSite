@@ -56,7 +56,7 @@ const tags = document.querySelectorAll('.filter-btn');
 tags.forEach(btn => {
     btn.addEventListener('click', () => {
         projects.forEach(card => {
-            if(btn.innerHTML.toLowerCase() == 'all'){
+            if(btn.innerHTML.toLowerCase() == 'todos'){
                 card.style.display = 'block';
             } else {
                 if (card.getAttribute('data-tags').includes(btn.innerHTML.toLowerCase())){

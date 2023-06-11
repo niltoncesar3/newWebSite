@@ -16,7 +16,7 @@ let projectData = [
         tags: '#login email e senha'
     },
     {
-        image: 'img/project-3.png',
+        image: 'img/word (2).jpg',
         name: 'Adivinhe a palavra',
         detail: 'Projeto de adivinhar a palavra, se você errar o jogo será reiniciado.',
         github: 'https://github.com/niltoncesar3/guessTheWord',
@@ -84,7 +84,6 @@ const createProjectCards = (data) => {
                 <p class="project-detail">${data.detail}</p>
                 <a href="${data.github}" target='_blank' class="btn">GitHub</a>
                 <a href="${data.live}" target= '_blank' class="btn">Ver Site</a>
-
               </div>
             </div>
     </div>

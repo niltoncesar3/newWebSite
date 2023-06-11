@@ -17,11 +17,11 @@ let projectData = [
     },
     {
         image: 'img/project-3.png',
-        name: 'project three',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#javascript, #react'
+        name: 'Adivinhe a palavra',
+        detail: 'Projeto de adivinhar a palavra, se você errar o jogo será reiniciado.',
+        github: 'https://github.com/niltoncesar3/guessTheWord',
+        live: 'https://niltoncesar3.github.io/guessTheWord/',
+        tags: '#adivinhe a palavra'
     },
     {
         image: 'img/project-4.png',

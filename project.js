@@ -24,12 +24,12 @@ let projectData = [
         tags: '#adivinhe a palavra'
     },
     {
-        image: 'img/project-4.png',
-        name: 'project four',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#fullstack, #css'
+        image: 'img/avião.jpg',
+        name: 'Landing page',
+        detail: 'Landing page sobre um site de compra de destinos para viagem.',
+        github: 'https://github.com/niltoncesar3/travelProject',
+        live: 'https://niltoncesar3.github.io/travelProject/#travel',
+        tags: '#landing page'
     },
     {
         image: 'img/project-5.png',

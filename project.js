@@ -28,7 +28,7 @@ let projectData = [
         name: 'Landing page',
         detail: 'Landing page sobre um site de compra de destinos para viagem.',
         github: 'https://github.com/niltoncesar3/travelProject',
-        live: 'https://niltoncesar3.github.io/travelProject/#travel',
+        live: 'https://niltoncesar3.github.io/travelproject/',
         tags: '#landing page'
     },
     {

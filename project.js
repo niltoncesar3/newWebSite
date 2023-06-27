@@ -32,12 +32,12 @@ let projectData = [
         tags: '#landing page'
     },
     {
-        image: 'img/project-5.png',
-        name: 'project five',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#fullstack'
+        image: 'img/computador.jpg',
+        name: 'Validação de senha',
+        detail: 'Campo de input para digitar uma senha, no qual deve atender todos os requisitos',
+        github: 'https://github.com/niltoncesar3/passwordValidation',
+        live: 'https://niltoncesar3.github.io/passwordValidation/',
+        tags: '#validação de senha'
     },
     {
         image: 'img/project-6.png',

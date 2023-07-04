@@ -1,3 +1,9 @@
+const header = document.querySelector('nav');
+
+window.addEventListener('scroll', function() {
+    header.classList.toggle ('sticky', window.scrollY > 0);
+});
+
 let projectData = [
     {
         image: 'img/cidade.jpg',
@@ -40,29 +46,13 @@ let projectData = [
         tags: '#validação de senha'
     },
     {
-        image: 'img/project-6.png',
-        name: 'project six',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#css'
-    },
-    {
-        image: 'img/project-7.png',
-        name: 'project seven',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#javascript'
-    },
-    {
-        image: 'img/project-8.png',
-        name: 'project eight',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#css'
-    },
+        image: 'img/lojaDeRoupas.jpg',
+        name: 'E-Commerce',
+        detail: 'E-Commerce sobre roupas masculinas',
+        github: 'https://github.com/niltoncesar3/lojaDeRoupas',
+        live: 'https://niltoncesar3.github.io/lojaDeRoupas/',
+        tags: 'e-commerce'
+    }
 ]
 
 // creating project cards in frontend

@@ -48,9 +48,9 @@ let projectData = [
     {
         image: 'img/lojaDeRoupas.jpg',
         name: 'E-Commerce',
-        detail: 'E-Commerce sobre roupas masculinas',
-        github: 'https://github.com/niltoncesar3/lojaDeRoupas',
-        live: 'https://niltoncesar3.github.io/lojaDeRoupas/',
+        detail: 'E-Commerce sobre roupas masculinas, desenvolvido com React usando styled components.',
+        github: 'https://github.com/niltoncesar3/UrbanFinds',
+        live: 'https://niltoncesar3.github.io/UrbanFinds/',
         tags: 'e-commerce'
     }
 ]
